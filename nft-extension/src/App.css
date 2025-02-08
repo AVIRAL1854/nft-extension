@@ -1,0 +1,76 @@
+.customSize{
+    height: 600px;
+    width: 500px;
+}
+
+body{
+    background-color:black ;
+}
+
+/* app.css */
+
+/* Target the scrollbar for all elements that have it */
+::-webkit-scrollbar {
+  width: 0px; /* Or a very thin width if you want a tiny hint */
+  height: 0px; /* Same for horizontal scrollbars */
+}
+
+/* Optional: Style the thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make it transparent */
+  /* Other styling if needed, but keep it subtle */
+}
+
+/* Optional: Style the track (the background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Make it transparent */
+}
+
+/* Firefox equivalent */
+* { /* Apply to all elements */
+  scrollbar-width: none;  /* Hide the scrollbar */
+}
+
+/* For specific elements, you can target them like this: */
+.my-scrollable-div::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar only for this div */
+}
+
+.my-other-scrollable-element {
+  scrollbar-width: none; /* Hide for this element */
+}
+
+/* If you need to show the scrollbar for a specific component, you can override it: */
+.show-scrollbar::-webkit-scrollbar {
+  display: block; /* Show the scrollbar for this element */
+  width: 8px; /* Set a specific width */
+}
+
+.show-scrollbar {
+  scrollbar-width: auto; /* Show for Firefox */
+}
+
+
+
+/* HTML: <div class="loader"></div> */
+.loader {    
+  --r1: 154%;
+  --r2: 68.5%;
+  width: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%; 
+  background:
+    radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#269af2 80%),
+    radial-gradient(var(--r1) var(--r2) at bottom,#269af2 79.5%,#0000 80%),
+    radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#269af2 80%),
+    #ccc;
+  background-size: 50.5% 220%;
+  background-position: -100% 0%,0% 0%,100% 0%;
+  background-repeat:no-repeat;
+  animation: l9 2s infinite linear;
+}
+@keyframes l9 {
+    33%  {background-position:    0% 33% ,100% 33% ,200% 33% }
+    66%  {background-position: -100%  66%,0%   66% ,100% 66% }
+    100% {background-position:    0% 100%,100% 100%,200% 100%}
+}

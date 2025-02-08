@@ -1,0 +1,16 @@
+{
+    "manifest_version":3,
+    "version":"1.0.0",
+    "name":"nft-extension",
+    "action":{
+        "default_popup":"index.html"
+    },
+    "permissions":["scripting", "activeTab", "storage", "unlimitedStorage"],
+    "host_permissions":[
+        "http://*/*",
+        "https://*/*"
+    ],
+    "icons":{
+        "32":"Nft.png"
+    }
+}
