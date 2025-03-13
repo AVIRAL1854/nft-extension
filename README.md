@@ -1,5 +1,7 @@
 
 
+
+
 ---
 
 # 🌟 **NFT Collection Checker** 🌟
@@ -7,6 +9,9 @@
 Welcome to the **NFT Collection Checker** project! 🎨 This project consists of a **frontend extension** and a **backend server** that allows you to check NFT collections. 🚀 Whether you're a developer or an NFT enthusiast, this tool makes it easy to explore the world of NFTs! 👾
 
 ---
+
+[![Watch the video](https://img.youtube.com/vi/Y-IXQ8gYMi4/maxresdefault.jpg)](https://youtu.be/Y-IXQ8gYMi4)
+
 
 ## 📋 **Table of Contents** 📋
 
