@@ -10,7 +10,8 @@ Welcome to the **NFT Collection Checker** project! 🎨 This project consists of
 
 ---
 
-[![Watch the video](https://img.youtube.com/vi/Y-IXQ8gYMi4/maxresdefault.jpg)](https://youtu.be/Y-IXQ8gYMi4)
+[![Watch the video](https://img.youtube.com/vi/Y-IXQ8gYMi4/hqdefault.jpg)](https://youtu.be/Y-IXQ8gYMi4)
+
 
 
 ## 📋 **Table of Contents** 📋
